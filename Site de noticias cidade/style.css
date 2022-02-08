@@ -1,0 +1,60 @@
+/* **Formatação padrão** */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background: #fff url(/image/fundo.png) repeat-x;
+}
+
+/* **Edição do cabeçalho** */
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.header {
+  height: 150px;
+  padding-top: 25px;
+  border: 1px solid red;
+  background: url(/image/detalhe-topo.png) no-repeat right top;
+}
+
+.box-logo {
+  width: 152px;
+  height: 66px;
+  background: url(/image/logo.png) no-repeat center;
+  /* **text-ident nos ajuda a ocultar certos detalhes que eu não queira que apareça na minha pagina** */
+  text-indent: -3000px;
+}
+/* **Fim da edição do cabeçalho** */
+
+/* **Edição da barra de navegação** */
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header ul {
+  background: #b10333;
+  margin-top: 30px;
+  float: left;
+}
+
+.header ul li {
+  float: left;
+}
+
+.header ul a {
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+}

@@ -1,0 +1,96 @@
+/* **Classe para todos os texto do meu html que estiver dentro do body** */
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+/* **Edição do container onde vai ter meu conteudo** */
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  min-width: 720px;
+  max-width: 960px;
+}
+
+/* **Fim da edição** */
+
+/* **Edição do header** */
+
+#marca {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background: #225992 url(/image/cabecalho2.jpg) no-repeat center;
+}
+
+/* **Fim da edição do header** */
+
+/* **Edição da box onde vai ter os meus conteudos** */
+
+#content {
+  width: 75%;
+  float: right;
+}
+
+#content-main {
+  width: 63%;
+  float: left;
+}
+
+img.img-box {
+  width: 96%;
+  padding: 2%;
+  max-width: 600px;
+}
+
+#content-second {
+  width: 36%;
+  float: right;
+  background: #d1d1d1;
+}
+
+#content-second h1,
+#content-second h2,
+#content-second h3,
+#content-second h4,
+#content-second p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* **Fim da edição da box onde vai ter os meus conteudos** */
+
+/* **Edição da nevegação/link do meu html** */
+
+#navegacao {
+  width: 23%;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #d1d1d1 url(/image/coluna.png) repeat-y;
+}
+
+#navegacao ul {
+  list-style-type: none;
+}
+
+#navegacao li a {
+  text-decoration: none;
+}
+
+/* **Fim da edição da nevegação/link do meu html** */
+
+/* **Edição do meu foot (rodapé)** */
+
+#foot {
+  clear: both;
+  background: #c4c4c4;
+  text-align: center;
+  padding: 5px;
+}
+
+/* **Fim da edição do meu foot (rodapé)** */

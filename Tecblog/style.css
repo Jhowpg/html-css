@@ -1,0 +1,154 @@
+/** formatações padrões **/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1em;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  background: #e6e6e6;
+}
+
+/**  Fim das formatações padrões  **/
+
+/** Layout **/
+
+.top-header {
+  background-color: #f7b600;
+  text-align: center;
+  padding: 15px;
+}
+.logo,
+.header-menu {
+  padding: 10px;
+}
+
+.logo span {
+  color: #fff;
+}
+.main {
+  width: 920px;
+  margin: 0px auto;
+  padding: 15px;
+}
+
+.post {
+  width: 660px;
+  float: left;
+}
+
+.area-lateral {
+  width: 240px;
+  float: right;
+}
+
+.barra-lateral {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.barra-lateral-2 {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.bottom {
+  background: #ccc;
+  clear: both;
+  text-align: center;
+  padding: 15px;
+}
+
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.postagem h2 {
+  color: #f7b600;
+}
+
+/** Fim do layout **/
+
+/** Links **/
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f7b600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.top-header a:link,
+.top-header a:visited {
+  color: #fff;
+  padding: 8px 12px;
+}
+.top-header a:hover {
+  color: #f7b600;
+  background: #fff;
+  text-decoration: none;
+}
+
+.barra-lateral-2 a:link,
+.barra-lateral-2 a:visited {
+  color: #f7b600;
+}
+
+.barra-lateral-2 a:hover {
+  color: #f7b600;
+  background: rgb(187, 187, 187);
+  text-decoration: none;
+}
+
+/** Fim dos links **/
+
+/** Formatação geral **/
+
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #f7b600;
+}
+
+h3 {
+  background: #f7b600;
+  color: #565656;
+  padding: 5px;
+}
+
+.text-post {
+  font-size: 0.8em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.post-lateral {
+  font-size: 0.8em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.post-lateral-2 {
+  font-size: 0.8em;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}

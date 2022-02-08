@@ -1,0 +1,71 @@
+/* **Regras para todo os textos do html** */
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* **Fim das regras para todo os textos do html** */
+
+/* **Edição da minha lista não ordenada**  */
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  width: 720px;
+}
+
+/* **Fim de ediçãoda minha lista não ordenada** */
+
+/* **Edição das listas** */
+
+ul li {
+  float: left;
+  background: url(/imagens/aba-direita.png) no-repeat top right;
+}
+
+/* **Fim de edição das listas** */
+
+/* **Edição dos links** */
+
+li a {
+  display: block;
+  line-height: 3em;
+  text-decoration: none;
+  padding: 0 2em;
+  background: url(/imagens/aba-esquerda.png) no-repeat top left;
+  color: #fff;
+}
+
+/* **Fim de edição dos links** */
+
+/* **Estilização do efeito hover** */
+
+ul a:hover {
+  color: #894a1f;
+}
+
+/* **Fim da estilização do efeito hover** */
+
+/* **Marcação da minha pagina atual** */
+
+ul #atual {
+  background: url(/imagens/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a {
+  background: url(/imagens/aba-esquerda-atual.png) no-repeat top left;
+}
+
+/* **Fim da marcação da minha pagina atual** */
+
+/* **Clear serve para remover o fluxo flutante do meu html** */
+
+p {
+  clear: both;
+}
